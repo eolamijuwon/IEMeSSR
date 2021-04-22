@@ -1,11 +1,11 @@
 ---
 Date: 10-14 February 2020
-Host Institution: Federal University, Oye Ekiti, Ekiti State, Nigeria
-Title: DemogRaphic Research and Data Analysis
+Host Institution: African COVID & SRH Research Network
+Title: Introduction to Emerging Methodologies in Social Science Research Workshop
 ---
 
 
-<img align="centre" src="Images/header.jpg">
+<img align="centre" src="Images/header.png">
 
 
 # Introduction
