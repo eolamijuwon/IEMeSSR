@@ -1,5 +1,5 @@
 ---
-Date: 10-14 February 2020
+Date: 10-14 May 2021
 Host Institution: African COVID & SRH Research Network
 Title: Introduction to Emerging Methodologies in Social Science Research Workshop
 ---
