@@ -4,7 +4,6 @@ Host Institution: African COVID & SRH Research Network
 Title: Introduction to Emerging Methodologies in Social Science Research Workshop
 ---
 
-<img src="Images/header.png" align="centre"/>
 
 # Requirements
 
@@ -32,23 +31,23 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 Please read the following research materials carefully for discussion. Participants will be required to share their key takeaway from the articles as a check-in.
 
-  -   Gupta, M., Bansal, A., Jain, B., Rochelle, J., Oak, A., & Jalali, M. S. (2021). Whether the weather will help us weather the COVID-19 pandemic: Using machine learning to measure twitter users' perceptions. International journal of medical informatics, 145, 104340. <https://doi.org/10.1016/j.ijmedinf.2020.104340>
-  
-  -   Koh, J. X., & Liew, T. M. (2020). How loneliness is talked about in social media during COVID-19 pandemic: text mining of 4,492 Twitter feeds. Journal of psychiatric research. <https://doi.org/10.1016/j.jpsychires.2020.11.015>
-  
-  -   Pittman, M., & Reich, B. (2016). Social media and loneliness: Why an Instagram picture may be worth more than a thousand Twitter words. Computers in Human Behavior, 62, 155-167. <https://doi.org/10.1016/j.chb.2016.03.084>
-  
-  -   Lohmann, S., White, B. X., & Zhen, Z. U. O. (2018). HIV messaging on Twitter: an analysis of current practice and data-driven recommendations. AIDS (London, England), 32(18), 2799. <http://doi.org/10.1097/QAD.0000000000002018>
-  
-  -   Blakemore, J. K., Bayer, A. H., Smith, M. B., & Grifo, J. A. (2020). Infertility influencers: an analysis of information and influence in the fertility webspace. Journal of assisted reproduction and genetics, 37, 1371-1378. <https://doi.org/10.1007/s10815-020-01799-2>
-  
-  -   Bogen, K. W., Bleiweiss, K. K., Leach, N. R., & Orchowski, L. M. (2019). \# MeToo: Disclosure and response to sexual victimization on Twitter. Journal of interpersonal violence, 0886260519851211. <https://doi.org/10.1177%2F0886260519851211>
-  
-  -   Vijaykumar, S., Nowak, G., Himelboim, I., & Jin, Y. (2018). Virtual Zika transmission after the first US case: who said what and how it spread on Twitter. American journal of infection control, 46(5), 549-557. <https://doi.org/10.1016/j.ajic.2017.10.015>
-  
-  -   Stubbs-Richardson, M., Rader, N. E., & Cosby, A. G. (2018). Tweeting rape culture: Examining portrayals of victim blaming in discussions of sexual assault cases on Twitter. Feminism & Psychology, 28(1), 90-108. <https://doi.org/10.1177%2F0959353517715874>
-  
-  -   Smit, A., & Bosch, T. (2020). Television and black Twitter in South Africa: Our perfect wedding. Media, Culture & Society, 42(7-8), 1512-1527. <https://doi.org/10.1177%2F0163443720926040>
+    -   Gupta, M., Bansal, A., Jain, B., Rochelle, J., Oak, A., & Jalali, M. S. (2021). Whether the weather will help us weather the COVID-19 pandemic: Using machine learning to measure twitter users' perceptions. International journal of medical informatics, 145, 104340. <https://doi.org/10.1016/j.ijmedinf.2020.104340>
+    
+    -   Koh, J. X., & Liew, T. M. (2020). How loneliness is talked about in social media during COVID-19 pandemic: text mining of 4,492 Twitter feeds. Journal of psychiatric research. <https://doi.org/10.1016/j.jpsychires.2020.11.015>
+    
+    -   Pittman, M., & Reich, B. (2016). Social media and loneliness: Why an Instagram picture may be worth more than a thousand Twitter words. Computers in Human Behavior, 62, 155-167. <https://doi.org/10.1016/j.chb.2016.03.084>
+    
+    -   Lohmann, S., White, B. X., & Zhen, Z. U. O. (2018). HIV messaging on Twitter: an analysis of current practice and data-driven recommendations. AIDS (London, England), 32(18), 2799. <http://doi.org/10.1097/QAD.0000000000002018>
+    
+    -   Blakemore, J. K., Bayer, A. H., Smith, M. B., & Grifo, J. A. (2020). Infertility influencers: an analysis of information and influence in the fertility webspace. Journal of assisted reproduction and genetics, 37, 1371-1378. <https://doi.org/10.1007/s10815-020-01799-2>
+    
+    -   Bogen, K. W., Bleiweiss, K. K., Leach, N. R., & Orchowski, L. M. (2019). \# MeToo: Disclosure and response to sexual victimization on Twitter. Journal of interpersonal violence, 0886260519851211. <https://doi.org/10.1177%2F0886260519851211>
+    
+    -   Vijaykumar, S., Nowak, G., Himelboim, I., & Jin, Y. (2018). Virtual Zika transmission after the first US case: who said what and how it spread on Twitter. American journal of infection control, 46(5), 549-557. <https://doi.org/10.1016/j.ajic.2017.10.015>
+    
+    -   Stubbs-Richardson, M., Rader, N. E., & Cosby, A. G. (2018). Tweeting rape culture: Examining portrayals of victim blaming in discussions of sexual assault cases on Twitter. Feminism & Psychology, 28(1), 90-108. <https://doi.org/10.1177%2F0959353517715874>
+    
+    -   Smit, A., & Bosch, T. (2020). Television and black Twitter in South Africa: Our perfect wedding. Media, Culture & Society, 42(7-8), 1512-1527. <https://doi.org/10.1177%2F0163443720926040>
 
 
 ### Day 4: Thursday, May 13, 2021
@@ -59,27 +58,6 @@ Please read the following research materials carefully for discussion. Participa
 
 -   15:00 – 17:00 SAST: Reproducible Analysis in R Studio *[Dr Ogbuokiri, B.]*
 
-# :family_man_man_boy: **Team**
-
-<img src="Images/instructors_odimegwu.png" align="right" width="15%"/>
-
--   [**Prof. Clifford Odimegwu**](https://orcid.org/0000-0002-6273-8807) is a professor of Demography at the University of the WItwatersrand, South Africa. He is a professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods. -[\@CliffOdimegwu](https://twitter.com/CliffOdimegwu)
-
-<img src="Images/instructors_adewoyin.png" align="right" width="15%"/>
-
--   [**Dr. Adewoyin**](https://www.wits.ac.za/staff/academic-a-z-listing/a/adeyemiadewoyinwitsacza/) is a lecturer and research scientist in the Department of Geography, University of Nigeria (UNN). He is also a Postdoctoral Fellow at the Demography and Population Studies Programme, University of the Witwatersrand, South Africa. He combines his eclectic academic and professional backgrounds in teaching and researching the health and political dimensions of regional development. -[\@yemiadewoyin](https://twitter.com/yemiadewoyin)
-
-<img src="Images/instructors_alence.png" align="right" width="15%"/>
-
--   [**Prof Rod Alence**](https://www.wits.ac.za/staff/academic-a-z-listing/a/rodalencewitsacza/) is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods. is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods.
-
-<img src="Images/instructors_ogbuokiri.png" align="right" width="15%"/>
-
--   [**Dr. Blessing Ogbuokiri**](https://scholar.google.com/citations?user=JZ_wxE4AAAAJ&hl=en) is a research fellow at the University of St. Andrews, United Kingdom and a doctoral candidate at the University of the Witwatersrand in South Africa. His primary research examines the opportunities to illuminate health challenges and health outcomes in African populations using data from online platforms. -[\@BlessingManB](https://twitter.com/BlessingManB)
-
-<img src="Images/instructors_olamijuwon.png" align="right" width="15%"/>
-
--   [**Emmanuel Olamijuwon**](https://e.olamijuwon.com/) is a research fellow at the University of St. Andrews, United Kingdom and a doctoral candidate at the University of the Witwatersrand in South Africa. His primary research examines the opportunities to illuminate health challenges and health outcomes in African populations using data from online platforms. -[\@eolamijuwon](https://twitter.com/eolamijuwon)
 
 # :family_man_man_boy: **Questions?**
 
