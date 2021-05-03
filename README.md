@@ -48,7 +48,7 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 <img src="Images/instructors_adewoyin.png" align="right" width="15%"/>
 
--   [**Dr. Adewoyin**](https://www.wits.ac.za/staff/academic-a-z-listing/a/adeyemiadewoyinwitsacza/) is a lecturer and research scientist in the Department of Geography, University of Nigeria (UNN). He is also a Postdoctoral Fellow at the Demography and Population Studies Programme, University of the Witwatersrand, South Africa. He combines his eclectic academic and professional backgrounds in teaching and researching the health and political dimensions of regional development. <img src="Images/tweet.png" align="right" width="2.5%"/> [\@yemiadewoyin](https://twitter.com/yemiadewoyin)
+-   [**Dr. Adewoyin**](https://www.wits.ac.za/staff/academic-a-z-listing/a/adeyemiadewoyinwitsacza/) is a lecturer and research scientist in the Department of Geography, University of Nigeria (UNN). He is also a Postdoctoral Fellow at the Demography and Population Studies Programme, University of the Witwatersrand, South Africa. He combines his eclectic academic and professional backgrounds in teaching and researching the health and political dimensions of regional development. \hfill <img src="Images/tweet.png" align="right" width="2.5%"/>[\@yemiadewoyin](https://twitter.com/yemiadewoyin)
 
 <img src="Images/instructors_alence.png" align="right" width="15%"/>
 

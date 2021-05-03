@@ -66,7 +66,7 @@ Below are few screnshots of relevant tweets matching our keyword of interest.
 
 We can also retrieve tweets that follow a keyphrase pattern like "expecting a baby" or "baby bump".
 
-``` {.r}
+``` {r}
 pregnant_keyphrase <-   search_tweets(q = "\"expecting a baby\"",
                                       ## The geocode argument is specified to 
                                       ## retain only tweets from Nigeria
