@@ -44,23 +44,23 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 <img src="Images/instructors_odimegwu.png" align="right" width="15%"/>
 
--   [**Prof. Clifford Odimegwu**](https://orcid.org/0000-0002-6273-8807) [\@CliffOdimegwu](https://twitter.com/CliffOdimegwu) is a professor of Demography at the University of the WItwatersrand, South Africa. He is a professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods.
+-   [**Prof. Clifford Odimegwu**](https://orcid.org/0000-0002-6273-8807) is a professor of Demography at the University of the WItwatersrand, South Africa. He is a professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods. <img src="Images/tweet.png" align="right" width="2.5%"/> [\@CliffOdimegwu](https://twitter.com/CliffOdimegwu)
 
-<img src="Images/instructors_odimegwu.png" align="right" width="15%"/>
+<img src="Images/instructors_adewoyin.png" align="right" width="15%"/>
 
--   [**Dr. Adewoyin**](https://www.wits.ac.za/staff/academic-a-z-listing/a/adeyemiadewoyinwitsacza/) is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods. is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods.
+-   [**Dr. Adewoyin**](https://www.wits.ac.za/staff/academic-a-z-listing/a/adeyemiadewoyinwitsacza/) is a lecturer and research scientist in the Department of Geography, University of Nigeria (UNN). He is also a Postdoctoral Fellow at the Demography and Population Studies Programme, University of the Witwatersrand, South Africa. He combines his eclectic academic and professional backgrounds in teaching and researching the health and political dimensions of regional development. <img src="Images/tweet.png" align="right" width="2.5%"/> [\@yemiadewoyin](https://twitter.com/yemiadewoyin)
 
-<img src="Images/instructors_odimegwu.png" align="right" width="15%"/>
+<img src="Images/instructors_alence.png" align="right" width="15%"/>
 
 -   [**Prof Rod Alence**](https://www.wits.ac.za/staff/academic-a-z-listing/a/rodalencewitsacza/) is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods. is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods.
 
-<img src="Images/instructors_odimegwu.png" align="right" width="15%"/>
+<img src="Images/instructors_ogbuokiri.png" align="right" width="15%"/>
 
--   [**Dr. Blessing Ogbuokiri**](https://scholar.google.com/citations?user=JZ_wxE4AAAAJ&hl=en) [\@BlessingManB](https://twitter.com/BlessingManB) is a research fellow at the University of St. Andrews, United Kingdom and a doctoral candidate at the University of the Witwatersrand in South Africa. His primary research examines the opportunities to illuminate health challenges and health outcomes in African populations using data from online platforms.
+-   [**Dr. Blessing Ogbuokiri**](https://scholar.google.com/citations?user=JZ_wxE4AAAAJ&hl=en) is a research fellow at the University of St. Andrews, United Kingdom and a doctoral candidate at the University of the Witwatersrand in South Africa. His primary research examines the opportunities to illuminate health challenges and health outcomes in African populations using data from online platforms. <img src="Images/tweet.png" align="right" width="2.5%"/> [\@BlessingManB](https://twitter.com/BlessingManB)
 
-<img src="Images/instructors_olamijuwon.png" href="https://e.olamijuwon.com/" align="right" width="15%"/>
+<img src="Images/instructors_olamijuwon.png" align="right" width="15%"/>
 
--   [**Emmanuel Olamijuwon**](https://e.olamijuwon.com/) [\@eolamijuwon](https://twitter.com/eolamijuwon) is a research fellow at the University of St. Andrews, United Kingdom and a doctoral candidate at the University of the Witwatersrand in South Africa. His primary research examines the opportunities to illuminate health challenges and health outcomes in African populations using data from online platforms.
+-   [**Emmanuel Olamijuwon**](https://e.olamijuwon.com/) is a research fellow at the University of St. Andrews, United Kingdom and a doctoral candidate at the University of the Witwatersrand in South Africa. His primary research examines the opportunities to illuminate health challenges and health outcomes in African populations using data from online platforms. <img src="Images/tweet.png" align="right" width="2.5%"/> [\@eolamijuwon](https://twitter.com/eolamijuwon)
 
 # :family_man_man_boy: **Questions?**
 
