@@ -42,15 +42,23 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 # :family_man_man_boy: **Team**
 
-<img src="Images/instruction_team.png" align="right" width="40%"/>
+<img src="Images/instructors_odimegwu.png" align="right" width="15%"/>
 
--   [**Prof. Clifford Odimegwu**](https://orcid.org/0000-0002-6273-8807) [\@CliffOdimegwu](https://twitter.com/CliffOdimegwu) is a professor of Demography at the University of the WItwatersrand, South Africa.
+-   [**Prof. Clifford Odimegwu**](https://orcid.org/0000-0002-6273-8807) [\@CliffOdimegwu](https://twitter.com/CliffOdimegwu) is a professor of Demography at the University of the WItwatersrand, South Africa. He is a professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods.
 
--   [**Dr. Adewoyin**](https://www.wits.ac.za/staff/academic-a-z-listing/a/adeyemiadewoyinwitsacza/).
+<img src="Images/instructors_odimegwu.png" align="right" width="15%"/>
 
--   [**Prof Rod Alence**](https://www.wits.ac.za/staff/academic-a-z-listing/a/rodalencewitsacza/)is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods.
+-   [**Dr. Adewoyin**](https://www.wits.ac.za/staff/academic-a-z-listing/a/adeyemiadewoyinwitsacza/) is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods. is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods.
 
--   [**Dr. Blessing Ogbuokiri**](https://scholar.google.com/citations?user=JZ_wxE4AAAAJ&hl=en) [\@BlessingManB](https://twitter.com/CliffOdimegwu)
+<img src="Images/instructors_odimegwu.png" align="right" width="15%"/>
+
+-   [**Prof Rod Alence**](https://www.wits.ac.za/staff/academic-a-z-listing/a/rodalencewitsacza/) is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods. is an associate professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods.
+
+<img src="Images/instructors_odimegwu.png" align="right" width="15%"/>
+
+-   [**Dr. Blessing Ogbuokiri**](https://scholar.google.com/citations?user=JZ_wxE4AAAAJ&hl=en) [\@BlessingManB](https://twitter.com/BlessingManB) is a research fellow at the University of St. Andrews, United Kingdom and a doctoral candidate at the University of the Witwatersrand in South Africa. His primary research examines the opportunities to illuminate health challenges and health outcomes in African populations using data from online platforms.
+
+<img src="Images/instructors_olamijuwon.png" href="https://e.olamijuwon.com/" align="right" width="15%"/>
 
 -   [**Emmanuel Olamijuwon**](https://e.olamijuwon.com/) [\@eolamijuwon](https://twitter.com/eolamijuwon) is a research fellow at the University of St. Andrews, United Kingdom and a doctoral candidate at the University of the Witwatersrand in South Africa. His primary research examines the opportunities to illuminate health challenges and health outcomes in African populations using data from online platforms.
 
