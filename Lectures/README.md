@@ -50,6 +50,21 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 -   15:00 – 17:00 SAST: Working with Digital Trace Data and ethics – GoogleTrends *with* [`gtrendsR`](https://github.com/PMassicotte/gtrendsR), and Online Surveys. *[Olamijuwon, E.]*
 
+    *Please read the following research materials carefully for discussion. Participants will be required to share their key takeaway from the articles as a check-in.*
+
+    -   Standish, K. (2021). COVID-19, suicide, and femicide: Rapid Research using Google search phrases. *The Journal of General Psychology*, 1-22. <https://doi.org/10.1080/00221309.2021.1874863>
+    -   Heerfordt, C., & Heerfordt, I. M. (2020). Has there been an increased interest in smoking cessation during the first months of the COVID-19 pandemic? A Google Trends study. *Public health*, *183*, 6. <https://doi.org/10.1016/j.puhe.2020.04.012>
+    -   Walker, A., Hopkins, C., & Surda, P. (2020, July). Use of Google Trends to investigate loss‐of‐smell‒related searches during the COVID‐19 outbreak. In *International forum of allergy & rhinology* (Vol. 10, No. 7, pp. 839-847). <https://doi.org/10.1002/alr.22580>
+    -   Springer, S., Menzel, L. M., & Zieger, M. (2020). Google Trends provides a tool to monitor population concerns and information needs during COVID-19 pandemic. *Brain, Behavior, and Immunity, 87,* 109–110. <https://doi.org/10.1016/j.bbi.2020.04.073>
+    -   Silverio-Murillo, A., Hoehn-Velasco, L., de la Miyar, J. R. B., & Rodríguez, A. (2021). COVID-19 and women's health: Examining changes in mental health and fertility. *Economics letters*, *199*, 109729.
+
+
+
+
+
+
+    -   
+
 ### **Day 5: Friday, May 14, 2021**
 
 -   15:00 – 17:00 SAST: Reproducible Analysis in R Studio *[Dr Ogbuokiri, B.]*
