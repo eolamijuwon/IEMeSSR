@@ -44,7 +44,7 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 <img src="Images/instructors_odimegwu.png" align="right" width="15%"/>
 
--   [**Prof. Clifford Odimegwu**](https://orcid.org/0000-0002-6273-8807) is a professor of Demography at the University of the WItwatersrand, South Africa. He is a professor in the Department of International Relations at the University of the Witwatersrand. His main interests are in the areas of political economy, African development, and quantitative research methods. -[\@CliffOdimegwu](https://twitter.com/CliffOdimegwu)
+-   [**Prof. Clifford Odimegwu**](https://orcid.org/0000-0002-6273-8807) is a professor of demography, social statistics, and population health, and founding director of the Graduate Programme in Demography and Population Studies, at the University of the Witwatersrand, Johannesburg, South Africa. His expertise covers the field of technical demography, population health, public health, sociology, and social statistics. -[\@CliffOdimegwu](https://twitter.com/CliffOdimegwu)
 
 <img src="Images/instructors_alence.png" align="right" width="15%"/>
 
@@ -56,7 +56,7 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 <img src="Images/instructors_ogbuokiri.png" align="right" width="15%"/>
 
--   [**Dr. Blessing Ogbuokiri**](https://scholar.google.com/citations?user=JZ_wxE4AAAAJ&hl=en) is a lecturer in the department of Computer Science at the University of Nigeria, Nsukka. He is also a visiting lecturer in the School of Computer Science and Applied Mathematics, University of the Witwatersrand. He has over fifteen years of work experience in academia, the software, and IT industries. His core research interest are in theoretical computing, machine learning, deep learning for social good, computer vision, software engineering (emphasis on implementation and testing). -[\@BlessingManB](https://twitter.com/BlessingManB)
+-   [**Dr. Blessing Ogbuokiri**](https://scholar.google.com/citations?user=JZ_wxE4AAAAJ&hl=en) is a lecturer in the department of Computer Science at the University of Nigeria, Nsukka. He is also a visiting lecturer in the Department of Applied Information Systems, School of Consumer Intelligence & Information Systems (SCiiS), University of Johannesburg, South Africa. He has over fifteen years of work experience in academia, the software, and IT industries. His core research interest are in theoretical computing, machine learning, deep learning for social good, computer vision, software engineering (emphasis on implementation and testing). -[\@BlessingManB](https://twitter.com/BlessingManB)
 
 <img src="Images/instructors_olamijuwon.png" align="right" width="15%"/>
 
