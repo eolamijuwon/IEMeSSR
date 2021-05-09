@@ -282,10 +282,10 @@ theme_bw() + theme(legend.position = "none")
 ```
 
 ``` r
-ggsave(file="../images/top_tweeters.png", dpi=350, height= 6, width= 10)
+ggsave(file="../Images/top_tweeters.png", dpi=350, height= 6, width= 10)
 ```
 
-<img src="../images/top_tweeters.png" width="100%"/>
+<img src="../Images/top_tweeters.png" width="100%"/>
 
 ### Socioeconomics - Ownership of Assets
 
@@ -336,10 +336,10 @@ theme_bw() + theme(legend.position = "none")
 ```
 
 ``` r
-ggsave(file="../images/top_devices.png", dpi=350, height= 4.5, width= 10)
+ggsave(file="../Images/top_devices.png", dpi=350, height= 4.5, width= 10)
 ```
 
-<img src="../images/top_devices.png" width="100%"/>
+<img src="../Images/top_devices.png" width="100%"/>
 
 ### Tweet Contents
 
@@ -542,10 +542,10 @@ ggplot() +
 ```
 
 ``` r
-ggsave(file="../images/sentiments.png", dpi=350, height= 6, width= 10)
+ggsave(file="../Images/sentiments.png", dpi=350, height= 6, width= 10)
 ```
 
-<img src="../images/sentiments.png" width="100%"/>
+<img src="../Images/sentiments.png" width="100%"/>
 
 Below are a few tweets from the president of Ghana during the period.
 
@@ -681,10 +681,10 @@ ggpubr::ggarrange(ZA, NG, GH, ZM,
 ```
 
 ``` r
-ggsave(file="../images/top_bigrams.png", dpi=350, height= 6, width= 13.5)
+ggsave(file="../Images/top_bigrams.png", dpi=350, height= 6, width= 13.5)
 ```
 
-<img src="../images/top_bigrams.png" width="100%"/>
+<img src="../Images/top_bigrams.png" width="100%"/>
 
 ## Summary
 
