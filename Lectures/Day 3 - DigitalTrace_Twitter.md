@@ -82,7 +82,34 @@ saveRDS(merged_pregDF, "data/merged_pregDF.rds")
 
 ```
 
+There's more that you can with `rtweet` for example, you can:
+
+- search for users with the keyword "demography" on their profile:
+
+```{r} 
+usrs_demo <- search_users("demography", n = 1000) 
+```
+
+```{r} 
+tweet_embed(tweet_url("alexpghayes", "1211748406730706944"))
+```
+
+- search for users who follower a person/celebrity/popular personality:
+
+```{r}
+follow_eo <- get_followers("eolamijuwon", n = 10000)
+```
+
+- get the most recent tweets from a person/celebrity/popular personality:
+
+```{r}
+tmls_iemessr <- get_timelines(c("eolamijuwon", "yemiadewoyin", 
+                        "BlessingManB"), n = 3200)
+```
+
 ## Activity
+
+
 
 ### Top Tweeters?
 
