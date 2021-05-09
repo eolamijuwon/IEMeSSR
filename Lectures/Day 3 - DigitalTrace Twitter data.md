@@ -14,7 +14,7 @@ to answer new and exciting demographic/social science research questions
 *(see below for a relevant example)*. This session will focus on using
 data from one of the information systems - Twitter (social media).
 
-<img src="../main/Images/alyssa_phila.png" width="100%"/>
+<img src="../Images/alyssa_phila.png" width="100%"/>
 
 ## Objective
 
