@@ -40,7 +40,7 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 -   15:00 – 17:00 SAST: Reproducible Analysis in R Studio *[Dr Ogbuokiri, B.]*
 
-There are a few pre-lecture instructions for you. You can access them [here](/Lectures/README.md)
+There are a few pre-lecture instructions for you. You can access them [here](/Lectures/README.md). Please go study them carefully ahead of the lectures since there will not be anytime to go over them again during the tutorials. Please do not hesitate to contact us if you have any questions or need help.
 
 # :family_man_man_boy: **Team**
 
