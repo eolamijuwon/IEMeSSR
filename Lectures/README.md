@@ -28,15 +28,15 @@ For the session, you will be required to have R and Rstudio installed on your co
 
     *Please install the following R packages before the lecture.*
 
-```{r}
-    install.packages (rtweet)
-    install.packages (tidyverse)
-    install.packages (tidytext)
-    install.packages (tweetrmd)
-    install.packages (lubridate)
-```
+    ```{r}
+        install.packages (rtweet)
+        install.packages (tidyverse)
+        install.packages (tidytext)
+        install.packages (tweetrmd)
+        install.packages (lubridate)
+    ```
 
-    *Please read the following research materials carefully for discussion. Participants will be required to share their key takeaway from the articles as a check-in.*
+    *Also, please read the following research materials carefully for discussion. Participants will be required to share their key takeaway from the articles as a check-in.*
 
     -   Gupta, M., Bansal, A., Jain, B., Rochelle, J., Oak, A., & Jalali, M. S. (2021). Whether the weather will help us weather the COVID-19 pandemic: Using machine learning to measure twitter users' perceptions. International journal of medical informatics, 145, 104340. <https://doi.org/10.1016/j.ijmedinf.2020.104340>
 
