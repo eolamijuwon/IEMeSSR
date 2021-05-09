@@ -30,7 +30,7 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 ### Day 3: Wednesday, May 12, 2021
 
--   15:00 – 17:00 SAST: [Working with Digital Trace Data and ethics - Twitter]("/Lectures/Day 3 - DigitalTrace Twitter data.md") *with* [`rtweet`](https://github.com/ropensci/rtweet) and Facebook *[Olamijuwon, E.]*
+-   15:00 – 17:00 SAST: [Working with Digital Trace Data and ethics - Twitter](https://github.com/eolamijuwon/IEMeSSR/blob/main/Lectures/Day%203%20-%20DigitalTrace%20Twitter%20data.md) *with* [`rtweet`](https://github.com/ropensci/rtweet) and Facebook *[Olamijuwon, E.]*
 
 ### Day 4: Thursday, May 13, 2021
 
