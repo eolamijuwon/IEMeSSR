@@ -14,6 +14,8 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 ### **Day 1: Monday, May 10, 2021**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EyynCgkmSvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 -   10:00 – 11:00 SAST: Introduction to Emerging Methodologies *[Prof Odimegwu, C.]*
 
 -   15:00 – 17:00 SAST: Introduction to Data Wrangling with R *[Prof Alence, R.]*
@@ -24,7 +26,7 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 ### **Day 3: Wednesday, May 12, 2021**
 
--   15:00 – 17:00 SAST: Working with Digital Trace Data and ethics - Twitter *with* [`rtweet`](https://github.com/ropensci/rtweet) and Facebook *[Olamijuwon, E.]*
+-   15:00 – 17:00 SAST: Working with Digital Trace Data and ethics - Twitter *with* [`rtweet`](https://github.com/ropensci/rtweet) *[Olamijuwon, E.]*
 
     *Please install the following R packages before the lecture.*
 
