@@ -32,7 +32,6 @@ For the session, you will be required to have R and Rstudio installed on your co
         install.packages (rtweet)
         install.packages (tidyverse)
         install.packages (tidytext)
-        install.packages (tweetrmd)
         install.packages (lubridate)
     ```
 
