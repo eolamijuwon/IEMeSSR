@@ -12,8 +12,6 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 ## **Pre-lecture Instructions**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EyynCgkmSvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### **Day 1: Monday, May 10, 2021**
 
 
