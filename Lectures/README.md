@@ -14,7 +14,6 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 ### **Day 1: Monday, May 10, 2021**
 
-
 -   10:00 – 11:00 SAST: Introduction to Emerging Methodologies *[Prof Odimegwu, C.]*
 
 -   15:00 – 17:00 SAST: Introduction to Data Wrangling with R *[Prof Alence, R.]*
@@ -37,7 +36,7 @@ For the session, you will be required to have R and Rstudio installed on your co
         install.packages (lubridate)
     ```
 
-    *Also, please read the following research materials carefully for discussion. Participants will be required to share their key takeaway from the articles as a check-in.*
+    In order to be able to stream tweets directly from Twitter, you need to have created a Twitter account. If you do not have an account yet, please go to [twitter.com](https://twitter.com/) and create one. *Also, please read the following research materials carefully for discussion. Participants will be required to share their key takeaway from the articles as a check-in.*
 
     -   Gupta, M., Bansal, A., Jain, B., Rochelle, J., Oak, A., & Jalali, M. S. (2021). Whether the weather will help us weather the COVID-19 pandemic: Using machine learning to measure twitter users' perceptions. International journal of medical informatics, 145, 104340. <https://doi.org/10.1016/j.ijmedinf.2020.104340>
 
