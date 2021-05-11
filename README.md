@@ -30,7 +30,7 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 ### Day 3: Wednesday, May 12, 2021
 
--   15:00 – 17:00 SAST: [Working with Digital Trace Data and ethics - Twitter](https://github.com/eolamijuwon/IEMeSSR/blob/main/Lectures/Day%203%20-%20DigitalTrace%20Twitter%20data.md) *with* [`rtweet`](https://github.com/ropensci/rtweet) and Facebook *[Olamijuwon, E.]*
+-   15:00 – 17:00 SAST: [Working with Digital Trace Data and ethics - Twitter](https://github.com/eolamijuwon/IEMeSSR/blob/main/Lectures/Day%203%20-%20DigitalTrace%20Twitter%20data.md) *with* [`rtweet`](https://github.com/ropensci/rtweet) *[Olamijuwon, E.]*
 
 ### Day 4: Thursday, May 13, 2021
 
@@ -38,7 +38,7 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 ### Day 5: Friday, May 14, 2021
 
--   15:00 – 17:00 SAST: Reproducible Analysis in R Studio *[Dr Ogbuokiri, B.]*
+-   15:00 – 17:00 SAST: Reproducible Analysis and Machine Learning with R/R-Studio *[Dr Ogbuokiri, B.]*
 
 There are a few pre-lecture instructions for you. You can access them [here](/Lectures/README.md). Please go study them carefully ahead of the lectures since there will not be anytime to go over them again during the tutorials. Please do not hesitate to contact us if you have any questions or need help.
 
