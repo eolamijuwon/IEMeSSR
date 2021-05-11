@@ -28,9 +28,7 @@ We will use the `rtweet` package to retrieve similar tweets but directly into Rs
 #install.packages("rtweet")
 library (rtweet)
 library (tidyverse)
-library (mosaic)
 library (tidytext)
-library (tweetrmd)
 library (lubridate)
 ```
 
