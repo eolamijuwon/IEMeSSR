@@ -29,10 +29,10 @@ For the session, you will be required to have R and Rstudio installed on your co
     *Please install the following R packages before the lecture.*
 
     ```{r}
-        install.packages (rtweet)
-        install.packages (tidyverse)
-        install.packages (tidytext)
-        install.packages (lubridate)
+        install.packages ("rtweet")
+        install.packages ("tidyverse")
+        install.packages ("tidytext")
+        install.packages ("lubridate")
     ```
 
     In order to be able to stream tweets directly from Twitter, you need to have created a Twitter account. If you do not have an account yet, please go to [twitter.com](https://twitter.com/) and create one. *Also, please read the following research materials carefully for discussion. Participants will be required to share their key takeaway from the articles as a check-in.*
