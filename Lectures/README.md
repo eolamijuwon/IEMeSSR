@@ -39,8 +39,6 @@ For the session, you will be required to have R and Rstudio installed on your co
 
     -   Gupta, M., Bansal, A., Jain, B., Rochelle, J., Oak, A., & Jalali, M. S. (2021). Whether the weather will help us weather the COVID-19 pandemic: Using machine learning to measure twitter users' perceptions. International journal of medical informatics, 145, 104340. <https://doi.org/10.1016/j.ijmedinf.2020.104340>
     
-    - Berger, L. M., Ferrari, G., Leturcq, M., Panico, L., & Solaz, A. (2021). COVID-19 lockdowns and demographically-relevant Google Trends: A cross-national analysis. PloS one, 16(3), e0248072. <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0248072>
-
     -   Koh, J. X., & Liew, T. M. (2020). How loneliness is talked about in social media during COVID-19 pandemic: text mining of 4,492 Twitter feeds. Journal of psychiatric research. <https://doi.org/10.1016/j.jpsychires.2020.11.015>
 
     -   Pittman, M., & Reich, B. (2016). Social media and loneliness: Why an Instagram picture may be worth more than a thousand Twitter words. Computers in Human Behavior, 62, 155-167. <https://doi.org/10.1016/j.chb.2016.03.084>
@@ -61,9 +59,17 @@ For the session, you will be required to have R and Rstudio installed on your co
 
 -   15:00 – 17:00 SAST: Working with Digital Trace Data and ethics – GoogleTrends *with* [`gtrendsR`](https://github.com/PMassicotte/gtrendsR), and Online Surveys. *[Olamijuwon, E.]*
 
-    *Please read the following research materials carefully for discussion. Participants will be required to share their key takeaway from the articles as a check-in.*
+    *Please install `gtrendsR` to be able to retireve GoogleTrends data.*
+
+    ```{r}
+        install.packages ("gtrendsR")
+    ```
+
+    *Also, please read the following research materials carefully for discussion. Participants will be required to share their key takeaway from the articles as a check-in.*
 
     -   Standish, K. (2021). COVID-19, suicide, and femicide: Rapid Research using Google search phrases. *The Journal of General Psychology*, 1-22. <https://doi.org/10.1080/00221309.2021.1874863>
+    
+    -   Berger, L. M., Ferrari, G., Leturcq, M., Panico, L., & Solaz, A. (2021). COVID-19 lockdowns and demographically-relevant Google Trends: A cross-national analysis. PloS one, 16(3), e0248072. <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0248072>
 
     -   Heerfordt, C., & Heerfordt, I. M. (2020). Has there been an increased interest in smoking cessation during the first months of the COVID-19 pandemic? A Google Trends study. *Public health*, *183*, 6. <https://doi.org/10.1016/j.puhe.2020.04.012>
 
