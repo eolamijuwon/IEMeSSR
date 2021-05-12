@@ -38,6 +38,8 @@ For the session, you will be required to have R and Rstudio installed on your co
     In order to be able to stream tweets directly from Twitter, you need to have created a Twitter account. If you do not have an account yet, please go to [twitter.com](https://twitter.com/) and create one. *Also, please read the following research materials carefully for discussion. Participants will be required to share their key takeaway from the articles as a check-in.*
 
     -   Gupta, M., Bansal, A., Jain, B., Rochelle, J., Oak, A., & Jalali, M. S. (2021). Whether the weather will help us weather the COVID-19 pandemic: Using machine learning to measure twitter users' perceptions. International journal of medical informatics, 145, 104340. <https://doi.org/10.1016/j.ijmedinf.2020.104340>
+    
+    - Berger, L. M., Ferrari, G., Leturcq, M., Panico, L., & Solaz, A. (2021). COVID-19 lockdowns and demographically-relevant Google Trends: A cross-national analysis. PloS one, 16(3), e0248072. <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0248072>
 
     -   Koh, J. X., & Liew, T. M. (2020). How loneliness is talked about in social media during COVID-19 pandemic: text mining of 4,492 Twitter feeds. Journal of psychiatric research. <https://doi.org/10.1016/j.jpsychires.2020.11.015>
 
