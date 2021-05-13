@@ -252,7 +252,7 @@ search_Trends %>%
 ggsave(file="../images/searchInt_covid.png", dpi=350, height= 4.5, width= 10)
 ```
 
-<img src="../images/searchInt_covid.png" width="100%"/>
+<img src="../Images/searchInt_covid.png" width="100%"/>
 
 ***Note:*** Your interpretation of the results should be based on
 patterns of search interest *within* a country ***during a period.*** As
