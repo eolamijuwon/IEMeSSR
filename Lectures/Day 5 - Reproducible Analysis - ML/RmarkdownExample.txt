@@ -1,0 +1,61 @@
+---
+title: “First Rmarkdown Example
+author: "Dr Man B"
+date: "14/05/2021"
+output: html_document
+---
+
+# Reading a CSV File
+
+Following is a simple example of read.CSV() function to reas a CSV file.
+
+```{r}
+data <- read.csv("input.csv")
+print(data)
+
+```
+
+The code chunk below  prints the dimension of the data set.
+
+``` {r}
+#print the dimension of the dataset
+dim(data)
+head(data)
+```
+
+We want to print the elements on the rows and columns differently
+
+```{r}
+print(nrow(data))
+print(ncol(data))
+```
+
+
+This prints the maximum salary in the data set.
+```{r}
+sal <- max(data$salary)
+print(sal)
+
+```
+
+Get all the people working in the IT Department
+
+```{r}
+
+retval <- subset(data, dept=="Finance")
+print(retval)
+```
+
+# We now Want to plot a graph
+
+Following is the description of the parameters used in the plotting of graph
+
+```{r}
+#create the data for the chart
+v <- c(7,12,28,3,41)
+
+# plot the line  chart
+
+plot(v,type = "o",col="red", xlab = "Months", ylab = "Rainfail", main = "Rain fal chat")
+
+```

@@ -1,0 +1,197 @@
+---
+title: "RmarkdownTest"
+author: "Dr Man B"
+date: "11/05/2021"
+output: html_document
+---
+
+#build a machine learning model that can predict iris flower
+
+# Machine Learing in R
+Here we practice some simple machine learning implementation in Rmarkdown
+
+```{r}
+#load the the data
+# attach the iris dataset to the environment
+data(iris)
+# rename the dataset
+dataset <- iris
+```
+We will split the loaded dataset into two, 80% of which we will use to train our models and 20% that we will hold back as a validation dataset.
+
+```{r}
+library(caret)
+# create a list of 80% of the rows in the original dataset we can use for training
+validation_index <- createDataPartition(dataset$Species, p=0.80, list=FALSE)
+# select 20% of the data for validation
+validation <- dataset[- validation_index,]
+# use the remaining 80% of data to training and testing the models
+dataset <- dataset[validation_index,]
+```
+
+# Summarize Dataset
+
+In this step we are going to take a look at the data a few different ways:
+
+- Dimensions of the dataset.
+- Types of the attributes.
+- Peek at the data itself.
+- Levels of the class attribute.
+- Breakdown of the instances in each class.
+- Statistical summary of all attributes.
+
+```{r}
+# dimensions of dataset
+dim(dataset)
+```
+```{r}
+# list types for each attribute
+sapply(dataset, class)
+```
+```{r}
+# take a peek at the first 5 rows of the data
+head(dataset)
+```
+```{r}
+# list the levels for the class
+levels(dataset$Species)
+```
+Let’s now take a look at the number of instances (rows) that belong to each class. We can view this as an absolute count and as a percentage.
+```{r}
+# summarize the class distribution
+percentage <- prop.table(table(dataset$Species)) * 100
+cbind(freq=table(dataset$Species), percentage=percentage)
+```
+Now finally, we can take a look at statistical summary of each attribute. This includes the mean, the min and max values as well as some percentiles (25th, 50th or media and 75th e.g. values at this points if we ordered all the values for an attribute).
+
+```{r}
+# summarize attribute distributions
+summary(dataset)
+```
+# Visualize Dataset
+We now have a basic idea about the data. We need to extend that with some visualizations.
+
+We are going to look at two types of plots:
+
+- Univariate plots to better understand each attribute.
+- Multivariate plots to better understand the relationships between attributes.
+
+
+```{r}
+# split input and output
+x <- dataset[,1:4]
+y <- dataset[,5]
+```
+Given that the input variables are numeric, we can create box and whisker plots of each.
+
+```{r}
+# boxplot for each attribute on one image
+par(mfrow=c(1,4))
+  for(i in 1:4) {
+  boxplot(x[,i], main=names(iris)[i])
+}
+
+```
+
+We can also create a barplot of the Species class variable to get a graphical representation of the class distribution (generally uninteresting in this case because they’re even).
+```{r}
+# barplot for class breakdown
+plot(y)
+```
+
+# Multivariate Plots
+We can get an idea of the distribution of each attribute, again like the box  plots, broken down by class value. Sometimes histograms are good for this, but in this case we will use some probability density plots to give nice smooth lines for each distribution
+
+```{r}
+
+# density plots for each attribute by class value
+scales <- list(x=list(relation="free"), y=list(relation="free"))
+featurePlot(x=x, y=y, plot="density", scales=scales)
+```
+
+# Evaluate Some Algorithms
+Now it is time to create some models of the data and estimate their accuracy on unseen data.
+
+Here is what we are going to cover in this step:
+
+- Set-up the test harness to use 10-fold cross validation.
+- Build 5 different models to predict species from flower measurements
+- Select the best model.
+
+## Test Harness
+We will 10-fold crossvalidation to estimate accuracy.
+
+This will split our dataset into 10 parts, train in 9 and test on 1 and release for all combinations of train-test splits. We will also repeat the process 3 times for each algorithm with different splits of the data into 10 groups, in an effort to get a more accurate estimate.
+
+```{r}
+# Run algorithms using 10-fold cross validation
+control <- trainControl(method="cv", number=10)
+metric <- "Accuracy"
+```
+We are using the metric of “Accuracy” to evaluate models. This is a ratio of the number of correctly predicted instances in divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 95% accurate). We will be using the metric variable when we run build and evaluate each model next.
+
+# Build Models
+Let’s evaluate 5 different algorithms:
+
+- Linear Discriminant Analysis (LDA)
+- Classification and Regression Trees (CART).
+- k-Nearest Neighbors (kNN).
+- Support Vector Machines (SVM) with a linear kernel.
+- Random Forest (RF)
+
+```{r}
+# let build the 5 models
+# a) linear algorithms
+set.seed(7)
+fit.lda <- train(Species~., data=dataset, method="lda", metric=metric, trControl=control)
+# b) nonlinear algorithms
+# CART
+set.seed(7)
+fit.cart <- train(Species~., data=dataset, method="rpart", metric=metric, trControl=control)
+# kNN
+set.seed(7)
+fit.knn <- train(Species~., data=dataset, method="knn", metric=metric, trControl=control)
+# c) advanced algorithms
+# SVM
+set.seed(7)
+fit.svm <- train(Species~., data=dataset, method="svmRadial", metric=metric, trControl=control)
+# Random Forest
+set.seed(7)
+fit.rf <- train(Species~., data=dataset, method="rf", metric=metric, trControl=control)
+```
+
+We now have 5 models and accuracy estimations for each. We need to compare the models to each other and select the most accurate.
+
+```{r}
+# summarize accuracy of the models and select the best models
+results <- resamples(list(lda=fit.lda, cart=fit.cart, knn=fit.knn, svm=fit.svm, rf=fit.rf))
+summary(results)
+
+```
+
+We can also create a plot of the model evaluation results and compare the spread and the mean accuracy of each model. There is a population of accuracy measures for each algorithm because each algorithm was evaluated 10 times (10 fold cross validation)
+```{r}
+# compare accuracy of models
+dotplot(results)
+```
+
+The results for just the LDA model can be summarized.
+```{r}
+# summarize Best Model
+print(fit.lda)
+```
+This gives a nice summary of what was used to train the model and the mean and standard deviation (SD) accuracy achieved, specifically 97.5% accuracy +/- 4%
+
+# Make Predictions
+The LDA was the most accurate model. Now we want to get an idea of the accuracy of the model on our validation set. This will give us an independent final check on the accuracy of the best model. It is valuable to keep a validation set just in case you made a slip during such as overfitting to the training set or a data leak. Both will result in an overly optimistic result.
+
+We can run the LDA model directly on the validation set and summarize the results in a confusion matrix.
+
+```{r}
+# estimate skill of LDA on the validation dataset
+predictions <- predict(fit.lda, validation)
+confusionMatrix(predictions, validation$Species)
+````
+We can see that the accuracy is 100%. It was a small validation dataset (20%), but this result is within our expected margin of 97% +/-4% suggesting we may have an accurate and a reliably accurate model.
+
+

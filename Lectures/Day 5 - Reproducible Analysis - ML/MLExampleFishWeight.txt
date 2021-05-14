@@ -1,0 +1,97 @@
+---
+title: "RMLinear1"
+author: "Dr Man B"
+date: "11/05/2021"
+output: html_document
+---
+# This program predicts the weight of a fish using the length, height and width 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load Data
+
+```{r}
+# 1. READ IN THE DATA
+df <- read.csv('Fish.csv')
+head(df)
+```
+## DATA ANALYSIS
+
+```{r}
+# check for missing values
+any(is.na(df))
+```
+Graph of Weight vs Height plot
+``` {r}
+library(ggplot2)
+# Weight vs Height plot
+#ggplot(data=df, aes(x=Weight, y=Height)) + geom_point()
+plot(Weight~Height, data=df)
+```
+
+```{r}
+library(corrgram)
+# correlation check
+corrgram(df, lower.panel=panel.shade, upper.panel=panel.cor)
+```
+
+Divide the dateset into two, 70% Training Set and 30% test set
+```{r}
+library(caTools)
+# 3. TRAIN/TEST SPLIT
+set.seed(42)
+
+sampleSplit <- sample.split(Y=df$Weight, SplitRatio=0.7)
+trainSet <- subset(x=df, sampleSplit==TRUE)
+testSet <- subset(x=df, sampleSplit==FALSE)
+```
+Train the model using trainSet data
+
+```{r}
+# 4. TRAIN THE MODEL
+model <- lm(formula=Weight ~ ., data=trainSet)
+summary(model)
+```
+# Visualise the Residual
+
+The difference between the observed value of the dependent variable (y) and the predicted value (ŷ) is called the residual (e). Each data point has one residual.
+
+Residual = Observed value - Predicted value
+
+Both the sum and the mean of the residuals are equal to zero
+
+A residual plot is a graph that shows the residuals on the vertical axis and the independent variable on the horizontal axis. If the points in a residual plot are randomly dispersed around the horizontal axis, a linear regression model is appropriate for the data; otherwise, a nonlinear model is more appropriate.
+
+```{r}
+# visualize residuals
+modelResiduals <- as.data.frame(residuals(model))
+ggplot(modelResiduals, aes(residuals(model))) + 
+  geom_histogram(fill='deepskyblue', color='black')
+```
+
+# Make Prediction
+```{r}
+# 5. MAKE PREDICTIONS
+preds <- predict(model, testSet)
+preds
+```
+
+# Evaluate the prediction model
+Calculate the mean squared error (MSE). The MSE of an estimator (of a procedure for estimating an unobserved quantity) measures the average of the squares of the errors — that is, the average squared difference between the estimated values and what is estimated
+
+
+Calculate the Root mean square error (RMSE) or root mean square deviation.  RMSE is one of the most commonly used measures for evaluating the quality of predictions. It shows how far predictions fall from measured true values using Euclidean distance.
+```{r}
+# 6. EVALUATE PREDICTIONS
+modelEval <- cbind(testSet$Weight, preds)
+colnames(modelEval) <- c('Actual', 'Predicted')
+modelEval <- as.data.frame(modelEval)
+head(modelEval)
+
+mse <- mean((modelEval$Actual - modelEval$Predicted)^2)
+mse
+
+rmse <- sqrt(mse)
+rmse
+```

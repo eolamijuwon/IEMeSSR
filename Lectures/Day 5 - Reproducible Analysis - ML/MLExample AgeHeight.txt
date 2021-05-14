@@ -1,0 +1,99 @@
+---
+title: “First Rmarkdown Example
+author: "Dr Man B"
+date: "14/05/2021"
+output: html_document
+---
+
+# ML in RMarkdown
+
+This program predict the height of a child given age.
+```{r}
+# 1. READ IN THE DATA
+
+data1 <- read.csv('age.csv')
+print(data1)
+dim(data1)
+```
+
+I want to plot the graph of Height vs age
+
+```{r}
+plot(height~age, data=data1)
+```
+
+Check the correlation between the attributes
+
+```{r}
+# 2. Correlation Check between attributes
+#import the library
+library(corrgram)
+
+#Correlation check
+corrgram(data1, lower.panel=panel.shade, upper.panel=panel.cor)
+
+```
+
+Divide the dataset into two, 70% Training set and 30% test set.
+
+```{r}
+#3. partition the dataset
+library(caTools)
+
+set.seed(42)
+
+sampleSplit<-sample.split(Y=data1$height, SplitRatio =0.7)
+trainSet <- subset(x=data1, sampleSplit==TRUE)
+testSet <- subset(x=data1,sampleSplit==FALSE)
+
+trainSet
+testSet
+
+```
+No we want to train the model
+```{r}
+#4. Train the model
+
+model <- lm(formula =height~.,data=trainSet)
+summary(model)
+```
+
+Visualise the residual
+
+```{r}
+# Step 5
+#import ggplot2 for the graph
+library(ggplot2)
+modelResiduals<- as.data.frame(residuals(model))
+ggplot(modelResiduals, aes(residuals(model))) + geom_histogram(fill ='blue', color = 'black')
+
+```
+
+# Make Prediction
+
+```{r}
+# Step 6
+#prediction
+
+preds <- predict(model,testSet)
+
+preds
+
+```
+
+# Evualtion of the Prediction
+```{r}
+#step 6
+
+modelEval <- cbind(testSet$age, testSet$height, preds)
+colnames(modelEval) <- c('Age', 'Actual Height', 'Predicted Height')
+modelEval <- as.data.frame(modelEval)
+print(modelEval)
+
+mse <- mean((modelEval$Actual - modelEval$Predicted)^2)
+mse
+
+rmse <- sqrt(mse)
+rmse
+```
+
