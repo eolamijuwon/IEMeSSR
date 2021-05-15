@@ -30,6 +30,7 @@ library (rtweet)
 library (tidyverse)
 library (tidytext)
 library (lubridate)
+library (ggpubr)
 ```
 
 In order to be able to stream tweets directly from Twitter, you need to have created a Twitter account. If you do not have one, please click [here](https://twitter.com/). Previously, you would be required to create a Developer App to access data from Twitter. You could still do that if you want. However, note that `rtweet` should be used strictly following Twitter's [developer terms](https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases).
@@ -646,8 +647,7 @@ ZM <- text_politics %>%
             x = "No of Occurence",
             title = "Zambia")
       
-ggpubr::ggarrange(ZA, NG, GH, ZM,
-                  nrow = 1, ncol = 4)  
+ggarrange(ZA, NG, GH, ZM, nrow = 1, ncol = 4)  
 ```
 
 ``` {.r}
